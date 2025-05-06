@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Data & Cloud Engineer graduating with a Master's in Computer & Information Systems in May 2025. I have hands-on experience in building data pipelines, cloud solutions, and full-stack applications using tools like AWS, GCP, Python, and SQL. I'm driven by curiosity, a love for learning, and a desire to build impactful, scalable systems at the intersection of data, cloud, and AI.🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1agWi7ei2G2DTRvr0G9_7OtJ2ChLwd65B/view?usp=sharing", // Set to empty to hide the button
+    "./assets/Bhargavi D resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,9 +47,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Building scalable data pipelines using Python, SQL, and AWS Glue"
-    ),
+    emoji("⚡ Building scalable data pipelines using Python, SQL, and AWS Glue"),
     emoji("⚡ Automating analytics with Alteryx, Tableau, and Power BI"),
     emoji("⚡ Designing and deploying cloud-native solutions on AWS"),
     emoji("⚡ Full-stack development with Angular, Java, and Python APIs"),
@@ -132,19 +130,12 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computers and Information Systems",
       duration: "August 2023 - May 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
     },
     {
-      schoolName: "AVN Institute of engineering and technology",
+      schoolName: "Jawaharlal Nehru Technological University - Hyderabad",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computers and Electronics engineering",
       duration: "2017 - 2021",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -227,7 +218,7 @@ const openSource = {
   title: "Github and major Projects",
   subtitle: "SOME PROJECTS THAT I have in github",
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
