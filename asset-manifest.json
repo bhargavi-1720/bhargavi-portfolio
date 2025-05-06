@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bhargavi-portfolio/static/css/main.6f0d8423.css",
-    "main.js": "/bhargavi-portfolio/static/js/main.8cd00c08.js",
+    "main.js": "/bhargavi-portfolio/static/js/main.704c1e19.js",
     "static/css/64.bba8fa55.chunk.css": "/bhargavi-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/bhargavi-portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/bhargavi-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/Montserrat-Regular.ttf": "/bhargavi-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/harvardLogo.png": "/bhargavi-portfolio/static/media/harvardLogo.42b173375cac84abb600.png",
     "static/media/Agustina.woff": "/bhargavi-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/resume.pdf": "/bhargavi-portfolio/static/media/resume.9c28ee0f0d208017fe7c.pdf",
     "static/media/codeInLogo.webp": "/bhargavi-portfolio/static/media/codeInLogo.5de5ac5041c48c198d8b.webp",
     "static/media/pwaLogo.webp": "/bhargavi-portfolio/static/media/pwaLogo.f47c9979423c3f8847a2.webp",
     "static/media/manOnTable.svg": "/bhargavi-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
@@ -21,11 +22,10 @@
     "static/media/cisco.webp": "/bhargavi-portfolio/static/media/cisco.dbfce7529011cabf96ef.webp",
     "static/media/skill.svg": "/bhargavi-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/blueprism.webp": "/bhargavi-portfolio/static/media/blueprism.8f78c0ca048167cb56d3.webp",
-    "static/media/resume.pdf": "/bhargavi-portfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/bhargavi-portfolio/index.html",
     "static/media/talksCardBack.svg": "/bhargavi-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.6f0d8423.css.map": "/bhargavi-portfolio/static/css/main.6f0d8423.css.map",
-    "main.8cd00c08.js.map": "/bhargavi-portfolio/static/js/main.8cd00c08.js.map",
+    "main.704c1e19.js.map": "/bhargavi-portfolio/static/js/main.704c1e19.js.map",
     "64.bba8fa55.chunk.css.map": "/bhargavi-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/bhargavi-portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/bhargavi-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.6f0d8423.css",
-    "static/js/main.8cd00c08.js"
+    "static/js/main.704c1e19.js"
   ]
 }
