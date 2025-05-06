@@ -47,7 +47,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Building scalable data pipelines using Python, SQL, and AWS Glue"),
+    emoji(
+      "⚡ Building scalable data pipelines using Python, SQL, and AWS Glue"
+    ),
     emoji("⚡ Automating analytics with Alteryx, Tableau, and Power BI"),
     emoji("⚡ Designing and deploying cloud-native solutions on AWS"),
     emoji("⚡ Full-stack development with Angular, Java, and Python APIs"),
@@ -62,7 +64,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "html-5",
       fontAwesomeClassname: "fab fa-html5"
     },
-    
+
     {
       skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
@@ -85,7 +87,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Github",
-      fontAwesomeClassname:"fab fa-github"
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "Power BI",
@@ -111,7 +113,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
-    
+
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -184,8 +186,7 @@ const workExperiences = {
         "validated website backend data through tracking users' activity, web traffic, and transactions in order to update and maintain proper records.",
         "Monitor and compared user engagement (user interaction likes and comments), inventory, and sales metrics, crafting interactive dashboards through Tableau/Power BI.",
         "Performed exploratory data analysis (EDA) to determine patterns and trends on sales performance as well as the activity of the users and improved it by more than 50%.",
-        "Created predictive models in Python and Alteryx to forecast sales and improve inventory planning, leading to improved decision-making.",
-        
+        "Created predictive models in Python and Alteryx to forecast sales and improve inventory planning, leading to improved decision-making."
       ]
     },
     {
@@ -199,7 +200,7 @@ const workExperiences = {
         "Developed full-stack features using Angular, Java & Python",
         "Built ETL pipelines with AWS Glue and Python/SQL for user data",
         "Collaborated on A/B tests, increasing online sales by 25%",
-        "Built Power BI and Tableau dashboards to monitor KPIs",
+        "Built Power BI and Tableau dashboards to monitor KPIs"
       ]
     },
     {
@@ -213,7 +214,7 @@ const workExperiences = {
         "Integrated AWS (S3, Lambda, Glue, IAM, Athena) with Alteryx workflows",
         "Built geospatial dashboards to analyze regional trends",
         "Automated alerting and reporting with CloudWatch",
-        "Supported hybrid cloud solutions with AWS + GCP",
+        "Supported hybrid cloud solutions with AWS + GCP"
       ]
     }
   ]
@@ -249,85 +250,97 @@ const bigProjects = {
     },*/
     {
       projectName: "Closet Couture – Virtual Wardrobe App",
-      projectDesc: "Planned and designed a virtual wardrobe management app to digitize clothing items and revolutionize fashion discovery. Worked on product backlog, interactive wireframes, and project planning documentation.",
+      projectDesc:
+        "Planned and designed a virtual wardrobe management app to digitize clothing items and revolutionize fashion discovery. Worked on product backlog, interactive wireframes, and project planning documentation.",
       tags: ["Agile", "UI/UX", "Wireframing", "Product Planning"],
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/19IA0cEDY7L_sbU-pGrYUsmkLpEA4Bu-X?usp=drive_link", 
-        }    
+          url: "https://drive.google.com/drive/folders/19IA0cEDY7L_sbU-pGrYUsmkLpEA4Bu-X?usp=drive_link"
+        }
       ]
-      },
+    },
 
     {
       projectName: "IT Disruption & Digital Strategy Case Study",
-      projectDesc: "Analyzed IT disruptions and competitive advantage using real-world case studies. Created a business case, digital storefront model, and investment strategy recommendations.",
+      projectDesc:
+        "Analyzed IT disruptions and competitive advantage using real-world case studies. Created a business case, digital storefront model, and investment strategy recommendations.",
       tags: ["IT Strategy", "Digital Transformation", "Business Case", "PDF"],
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/1u6GRWBsf7_t1DE-u1AQy8xSakjd2zu4X?usp=drive_link", // ← replace with actual link if available
-        }    
+          url: "https://drive.google.com/drive/folders/1u6GRWBsf7_t1DE-u1AQy8xSakjd2zu4X?usp=drive_link" // ← replace with actual link if available
+        }
       ]
     },
 
     {
       projectName: "Advanced Software Dev – CI/CD & Web Components",
-      projectDesc: "Designed a cloud-native architecture, practiced CI/CD pipelines using Jest and NodeJS, and built modular web components. Hands-on work with deployment automation and agile workflows.",
+      projectDesc:
+        "Designed a cloud-native architecture, practiced CI/CD pipelines using Jest and NodeJS, and built modular web components. Hands-on work with deployment automation and agile workflows.",
       tags: ["CI/CD", "Cloud Architecture", "NodeJS", "Web Components"],
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/1F5e5WWskFvN2F9SngeodDhL7n82rzYbg?usp=drive_link", // ← replace with main link or PDF
-        }    
+          url: "https://drive.google.com/drive/folders/1F5e5WWskFvN2F9SngeodDhL7n82rzYbg?usp=drive_link" // ← replace with main link or PDF
+        }
       ]
-      
     },
-    
+
     {
       projectName: "Data Visualization Dashboard",
-      projectDesc: "Built an interactive dashboard using modern visualization techniques to present KPIs and business insights. Emphasized storytelling with data and audience-focused design.",
+      projectDesc:
+        "Built an interactive dashboard using modern visualization techniques to present KPIs and business insights. Emphasized storytelling with data and audience-focused design.",
       tags: ["Tableau", "Power BI", "Dashboard", "Storytelling"],
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/16JjGwXekLbyFsXxcNlG1Mf1aAQra7J2s?usp=drive_link", // ← replace with your file if available
-        }    
+          url: "https://drive.google.com/drive/folders/16JjGwXekLbyFsXxcNlG1Mf1aAQra7J2s?usp=drive_link" // ← replace with your file if available
+        }
       ]
     },
 
     {
       projectName: "Cybersecurity Kill Chain & Network Scanning",
-      projectDesc: "Explored the 7 phases of the Cyber Kill Chain and applied Nmap/ZENMAP for real-world vulnerability scanning and enterprise security evaluation.",
+      projectDesc:
+        "Explored the 7 phases of the Cyber Kill Chain and applied Nmap/ZENMAP for real-world vulnerability scanning and enterprise security evaluation.",
       tags: ["Cybersecurity", "Network Scanning", "Nmap", "Zenmap"],
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/1wfMEJmSgyKY3RroFUZtZgoLFLb5eeMFt?usp=drive_link", // ← replace with your file if available
-        }    
+          url: "https://drive.google.com/drive/folders/1wfMEJmSgyKY3RroFUZtZgoLFLb5eeMFt?usp=drive_link" // ← replace with your file if available
+        }
       ]
       //github: "",
     },
-    
+
     {
       projectName: "Enterprise Architecture & Cloud Strategy",
-      projectDesc: "Explored enterprise operating models, business process modeling, and digital transformation frameworks. Created core diagrams, mind maps, OLTP/OLAP comparison, and market research journals. Completed Azure cloud training and TOGAF-based architecture planning.",
-      tags: ["Enterprise Architecture", "Azure", "TOGAF", "System Design", "Cloud Strategy"],
+      projectDesc:
+        "Explored enterprise operating models, business process modeling, and digital transformation frameworks. Created core diagrams, mind maps, OLTP/OLAP comparison, and market research journals. Completed Azure cloud training and TOGAF-based architecture planning.",
+      tags: [
+        "Enterprise Architecture",
+        "Azure",
+        "TOGAF",
+        "System Design",
+        "Cloud Strategy"
+      ],
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/1mnfGA54EC_BIl6URoJ5oIVPdQRGXO0C2?usp=drive_link", // ← replace with your file if available
-        }    
+          url: "https://drive.google.com/drive/folders/1mnfGA54EC_BIl6URoJ5oIVPdQRGXO0C2?usp=drive_link" // ← replace with your file if available
+        }
       ]
     },
     {
       projectName: "Zenmap- Cyber kill chain Demo",
-      projectDesc: "Explored enterprise operating models, business process modeling, and digital transformation frameworks. Created core diagrams, mind maps, OLTP/OLAP comparison, and market research journals. Completed Azure cloud training and TOGAF-based architecture planning.",
+      projectDesc:
+        "Explored enterprise operating models, business process modeling, and digital transformation frameworks. Created core diagrams, mind maps, OLTP/OLAP comparison, and market research journals. Completed Azure cloud training and TOGAF-based architecture planning.",
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/1wfMEJmSgyKY3RroFUZtZgoLFLb5eeMFt?usp=drive_link", // ← replace with your file if available
-        }    
+          url: "https://drive.google.com/drive/folders/1wfMEJmSgyKY3RroFUZtZgoLFLb5eeMFt?usp=drive_link" // ← replace with your file if available
+        }
       ]
     },
     {
@@ -338,23 +351,23 @@ const bigProjects = {
           name: "Visit presentation",
           url: "https://docs.google.com/presentation/d/1iMus-H1WSM-YuWWR702fJ1VrogO2UpMDbt-INLNNigY/edit?usp=drive_link"
         }
-       ]
-      },
+      ]
+    },
     {
       projectName: "Obesity & Geographic Research(Applied Analytics)",
-      projectDesc: "Explored enterprise operating models, business process modeling, and digital transformation frameworks. Created core diagrams, mind maps, OLTP/OLAP comparison, and market research journals. Completed Azure cloud training and TOGAF-based architecture planning.",
+      projectDesc:
+        "Explored enterprise operating models, business process modeling, and digital transformation frameworks. Created core diagrams, mind maps, OLTP/OLAP comparison, and market research journals. Completed Azure cloud training and TOGAF-based architecture planning.",
       footerLink: [
         {
           name: "google drive",
-          url: "https://drive.google.com/drive/folders/1wfMEJmSgyKY3RroFUZtZgoLFLb5eeMFt?usp=drive_link", // ← replace with your file if available
+          url: "https://drive.google.com/drive/folders/1wfMEJmSgyKY3RroFUZtZgoLFLb5eeMFt?usp=drive_link" // ← replace with your file if available
         },
         {
           name: "Visit presentation",
           url: "https://docs.google.com/presentation/d/1iMus-H1WSM-YuWWR702fJ1VrogO2UpMDbt-INLNNigY/edit?usp=drive_link"
-        }   
+        }
       ]
-   
-    } 
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -377,7 +390,7 @@ const achievementSection = {
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/1rgC76rA7p29XHGFgZMRc6F0uzCuegr6z/view?usp=drive_link"
-        },
+        }
         /*{
           name: "",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
@@ -396,7 +409,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""// paste a link here
+          url: "" // paste a link here
         }
       ]
     },
@@ -407,12 +420,15 @@ const achievementSection = {
       image: require("./assets/images/awseducate.jpeg"),
       imageAlt: "AWS Educate",
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1CelITIzmu-B9oAZsZFzrRbYZjWeSehaE/view?usp=drive_link"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1CelITIzmu-B9oAZsZFzrRbYZjWeSehaE/view?usp=drive_link"
+        }
       ]
     },
 
     {
-      title: "Blueprism, Eduskills - RPA Riders", 
+      title: "Blueprism, Eduskills - RPA Riders",
       //subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
@@ -421,11 +437,10 @@ const achievementSection = {
           name: "Certification",
           url: "https://eu.badgr.com/public/assertions/03aat5HiRciXwoDFyNJxaA"
         }
-        
       ]
     },
     {
-      title: "Blueprism", 
+      title: "Blueprism",
       //subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/blueprism.webp"),
       imageAlt: "PWA Logo",
@@ -434,7 +449,6 @@ const achievementSection = {
           name: "Certification",
           url: "https://drive.google.com/file/d/1WL7e4Kromn8OvZ0eJKTJUfD5NP_bitvb/view?usp=drive_link"
         }
-        
       ]
     },
     /*{
@@ -446,25 +460,24 @@ const achievementSection = {
         {name: "Certification", url: ""},
       ]
     },*/
-    
+
     {
       title: "Data Analytics - Cisco",
       //subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/cisco.webp"),
       imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-      ]
+      footerLink: [{name: "Certification", url: ""}]
     },
     {
       title: "Think Big with Functional Programming - Juspay",
       //subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
       image: require("./assets/images/juspay.png"),
-      imageAlt: " Juspay Hiring Challenge - Think Big with Functional Programming",
+      imageAlt:
+        " Juspay Hiring Challenge - Think Big with Functional Programming",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1gCOGzni3PhIMwZXd9tmHjvCjBOt7jRs_/view?usp=drive_link"// paste a link here
+          url: "https://drive.google.com/file/d/1gCOGzni3PhIMwZXd9tmHjvCjBOt7jRs_/view?usp=drive_link" // paste a link here
         }
       ]
     },
@@ -476,11 +489,10 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/1i4qOSukMVdDc1VrO2_3uozydiiZaHOwS/view?usp=drive_link"// paste a link here
+          url: "https://drive.google.com/file/d/1i4qOSukMVdDc1VrO2_3uozydiiZaHOwS/view?usp=drive_link" // paste a link here
         }
       ]
-    },
-
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -538,7 +550,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: false// Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
