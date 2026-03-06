@@ -23,10 +23,11 @@ const greeting = {
   username: "Bhargavi Duduku",
   title: "Hi, I'm Bhargavi",
   subTitle: emoji(
-    "A passionate Data & Cloud Engineer graduating with a Master's in Computer & Information Systems in May 2025. I have hands-on experience in building data pipelines, cloud solutions, and full-stack applications using tools like AWS, GCP, Python, and SQL. I'm driven by curiosity, a love for learning, and a desire to build impactful, scalable systems at the intersection of data, cloud, and AI.🚀"
+    "I specialize in turning complex data into insights that drive better business decisions. With 5+ years of experience across healthcare, finance, and analytics consulting, I build scalable SQL & Python data pipelines, Power BI/Tableau dashboards, and analytics solutions that help organizations improve operations and performance I’ve worked on projects ranging from AI-powered healthcare analytics platforms and EHR systems to financial and investment analytics, helping teams reduce manual reporting, uncover trends, and make data-driven decisions faster. Open to Senior Data Analyst, BI Analyst, and Data Analytics roles where I can help teams scale analytics, modernize data workflows, and turn data into real business value. Let’s connect if you’re building data-driven products or analytics platforms.🚀"
   ),
   resumeLink:
-    "./assets/Bhargavi D resume.pdf", // Set to empty to hide the button
+  " ",
+    //"./assets/Bhargavi D resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -35,7 +36,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/bhargavi-1720",
   linkedin: "https://www.linkedin.com/in/bhargavi-duduku",
-  gmail: "duduku.bhargavi@gmail.com",
+  gmail: "duduku.bhargavi06@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -45,13 +46,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA STORYTELLER OBSESSED WITH TRANSFORMING CHAOTIC DATA INTO DASHBOARDS, PREDICTIONS, AND ACTIONABLE STRATEGY.",
   skills: [
-    emoji("⚡ Building scalable data pipelines using Python, SQL, and AWS Glue"),
-    emoji("⚡ Automating analytics with Alteryx, Tableau, and Power BI"),
-    emoji("⚡ Designing and deploying cloud-native solutions on AWS"),
-    emoji("⚡ Full-stack development with Angular, Java, and Python APIs"),
-    emoji("⚡ Visualizing insights and trends through interactive dashboards")
+    emoji("⚡ Building scalable ETL pipelines using Python, SQL, Snowflake, and cloud platforms like AWS and Azure"),
+    emoji("⚡ Designing interactive Power BI and Tableau dashboards that turn complex datasets into actionable business insights"),
+    emoji("⚡ Analyzing healthcare, financial, and operational data to improve decision-making, performance monitoring, and forecasting"),
+    emoji("⚡ Automating data preparation and analytics workflows using Alteryx, SQL pipelines, and cloud data engineering tools"),
+    emoji("⚡ Applying advanced analytics, machine learning, and statistical modeling to solve real-world business problems")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -59,30 +60,30 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "data-pipelines",
+      //fontAwesomeClassname: "fab fa-database"
     },
 
     {
-      skillName: "css",
+      skillName: "analytics",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "storytelling",
+      fontAwesomeClassname: "fab fa-storytelling"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-azure"
     },
-    {
+    /*{
       skillName: "Angular",
       fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
+    },*/
     {
       skillName: "Github",
       fontAwesomeClassname: "fab fa-github"
@@ -108,8 +109,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
+      skillName: "snowflake",
+      fontAwesomeClassname: "fab fa-snowflake"
     },
 
     {
@@ -129,13 +130,13 @@ const educationInfo = {
       schoolName: "Saint louis University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Master of Science in Computers and Information Systems",
-      duration: "August 2023 - May 2025",
+      //duration: "August 2023 - May 2025",
     },
     {
       schoolName: "Jawaharlal Nehru Technological University - Hyderabad",
       logo: require("./assets/images/stanfordLogo.png"),
       subHeader: "Bachelor of Science in Computers and Electronics engineering",
-      duration: "2017 - 2021",
+      //duration: "2017 - 2021",
     }
   ]
 };
@@ -167,45 +168,59 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Data Analyst",
-      company: "Restyled by Izzy",
-      companylogo: require("./assets/images/izzy.png"),
-      date: "nov 2023 –  april 2024",
+      role: "Senior Data Analyst",
+      company: "Nutrix",
+      companylogo: require("./assets/images/nutrix.jpeg"),
+      //date: "nov 2023 –  april 2024",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Worked with Alteryx to process and convert giant datasets by null handling, deleting duplicates, removing outliers, and optimizing ETL operations.",
-        "validated website backend data through tracking users' activity, web traffic, and transactions in order to update and maintain proper records.",
-        "Monitor and compared user engagement (user interaction likes and comments), inventory, and sales metrics, crafting interactive dashboards through Tableau/Power BI.",
-        "Performed exploratory data analysis (EDA) to determine patterns and trends on sales performance as well as the activity of the users and improved it by more than 50%.",
-        "Created predictive models in Python and Alteryx to forecast sales and improve inventory planning, leading to improved decision-making."
+        "Analyzed large health and fitness datasets including BMI, calorie intake, workout activity, and nutrition patterns to generate personalized fitness insights.",
+        "Built automated data pipelines using Python and SQL to process user health metrics and integrate data from wearable devices and mobile applications.",
+        "Designed interactive dashboards in Power BI to track user progress, calorie burn, workout performance, and health trends for product and leadership teams.",
+        "Performed exploratory data analysis (EDA) on user health data to identify patterns in exercise behavior, nutrition habits, and fitness outcomes.",
+        "Collaborated with product and engineering teams to improve recommendation algorithms for workouts and nutrition planning, enhancing user engagement and retention."
       ]
     },
     {
-      role: "Full stack developer",
+      role: "Senior Data Analyst",
+      company: "Techsunsoft",
+      companylogo: require("./assets/images/techsunsoft.jpeg"),
+      //date: "nov 2023 –  april 2024",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Analyzed clinical and operational healthcare datasets to support AI-powered documentation and EHR analytics solutions for mental health providers.",
+        "Developed automated ETL pipelines using Python and SQL to process therapy session transcripts, patient engagement data, and clinical documentation records.",
+        "Built healthcare analytics dashboards in Power BI and Tableau to monitor treatment progress, clinician productivity, and patient engagement metrics.",
+        "Applied NLP-based sentiment analysis techniques on therapy notes to identify emotional patterns and support clinical decision-making.",
+        "Implemented data validation and reporting automation that reduced manual healthcare reporting effort by nearly 50% while improving data accuracy."
+      ]
+    },
+    {
+      role: "Data Analyst",
       company: "Vanguard (Infosys Ltd)",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "Nov 2021 – August 2023",
+      //date: "Nov 2021 – August 2023",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Migrated legacy apps to AWS (S3, Lambda, EC2, Glue, Redshift), improving performance by 2x–3x",
-        "Developed full-stack features using Angular, Java & Python",
-        "Built ETL pipelines with AWS Glue and Python/SQL for user data",
-        "Collaborated on A/B tests, increasing online sales by 25%",
-        "Built Power BI and Tableau dashboards to monitor KPIs"
+        "Analyzed large investment and portfolio datasets to generate insights on asset allocation, market performance, and client investment behavior.",
+        "Developed automated reporting pipelines using SQL and Python to process financial transaction data and portfolio performance metrics.",
+        "Created executive dashboards in Power BI and Tableau that visualized investment returns, risk exposure, and market trends for leadership teams.",
+        "Performed statistical analysis and forecasting to support portfolio optimization and improve investment decision-making strategies.",
+        "Collaborated with finance, risk, and data engineering teams to integrate financial data sources and improve reporting accuracy across analytics platforms."
       ]
     },
     {
       role: "Data & Cloud Engineering Intern",
       company: "ICloud",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "march 2021 – October 2021",
+      //date: "march 2021 – October 2021",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Used Alteryx for cleaning and transforming large datasets",
-        "Integrated AWS (S3, Lambda, Glue, IAM, Athena) with Alteryx workflows",
-        "Built geospatial dashboards to analyze regional trends",
-        "Automated alerting and reporting with CloudWatch",
-        "Supported hybrid cloud solutions with AWS + GCP"
+        "Built automated data preparation workflows using Alteryx to clean, transform, and integrate financial and operational datasets for analytics.",
+        "Developed ETL pipelines and cloud-based analytics workflows using AWS services such as S3 to manage and process large financial datasets.",
+        "Designed dashboards in Tableau and Power BI to analyze investment performance, operational metrics, and business KPIs.",
+        "Performed exploratory data analysis and statistical modeling on financial datasets to identify trends and support strategic planning.",
+        "Improved reporting efficiency by automating data workflows and integrating multiple data sources, reducing manual reporting time by over 40%."
       ]
     }
   ]
@@ -558,7 +573,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+1-(314)536-7013",
-  email_address: "duduku.bhargavi@gmail.com"
+  email_address: "duduku.bhargavi06@gmail.com"
 };
 
 // Twitter Section
