@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bhargavi-portfolio/static/css/main.6f0d8423.css",
-    "main.js": "/bhargavi-portfolio/static/js/main.704c1e19.js",
+    "main.js": "/bhargavi-portfolio/static/js/main.ae092628.js",
     "static/css/64.bba8fa55.chunk.css": "/bhargavi-portfolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/bhargavi-portfolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/bhargavi-portfolio/static/css/769.b3cbb36b.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/contactMailDark.svg": "/bhargavi-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/bhargavi-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
     "static/media/awseducate.jpeg": "/bhargavi-portfolio/static/media/awseducate.e23c3e988c278eb53451.jpeg",
+    "static/media/nutrix.jpeg": "/bhargavi-portfolio/static/media/nutrix.4dff2a4ed0700fdf94ba.jpeg",
     "static/media/walmart.png": "/bhargavi-portfolio/static/media/walmart.234eec9535ea177daf29.png",
     "static/media/cisco.webp": "/bhargavi-portfolio/static/media/cisco.dbfce7529011cabf96ef.webp",
     "static/media/skill.svg": "/bhargavi-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
@@ -25,7 +26,7 @@
     "index.html": "/bhargavi-portfolio/index.html",
     "static/media/talksCardBack.svg": "/bhargavi-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.6f0d8423.css.map": "/bhargavi-portfolio/static/css/main.6f0d8423.css.map",
-    "main.704c1e19.js.map": "/bhargavi-portfolio/static/js/main.704c1e19.js.map",
+    "main.ae092628.js.map": "/bhargavi-portfolio/static/js/main.ae092628.js.map",
     "64.bba8fa55.chunk.css.map": "/bhargavi-portfolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/bhargavi-portfolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/bhargavi-portfolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -33,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.6f0d8423.css",
-    "static/js/main.704c1e19.js"
+    "static/js/main.ae092628.js"
   ]
 }
